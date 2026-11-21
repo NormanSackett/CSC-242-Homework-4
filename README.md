@@ -12,7 +12,7 @@ Variable-evidence must be in pairs, but any number of pairs can be used, includi
 
 
 
-bnApproxInferencer performs approximate inference with Rejection Sampling. In my testing, it took around 100,000 samples to get within 1% of the actual probability, with 10,000 getting within 2%. Compiling and running bnApproxInferencer:
+bnApproxInferencer performs approximate inference with Rejection Sampling. In my testing, it took around 100,000 samples to get within 1% of the actual probability, with 10,000 getting within 2% (using many queries and evidence for the aima-alarm network). Compiling and running bnApproxInferencer:
 
 javac bnApproxInferencer.java
 
